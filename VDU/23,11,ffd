@@ -1,0 +1,5 @@
+VDU 23,11
+#Parent 23a
+VDU 23,11,0,0,0,0,0,0,0,0
+
+This VDU sets Master 128 compatible pattern mode, and resets the colour patterns to the <mode defaults=>ecf_default>.

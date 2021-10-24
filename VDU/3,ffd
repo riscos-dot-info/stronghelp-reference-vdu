@@ -1,0 +1,5 @@
+VDU 3
+#Parent !Root
+VDU 3 disables the printer stream.
+
+<VDU 2=>2> is used to enable the printer stream, and <OS_Byte 117=>OS:OS_Byte117> can be used to read whether the printer stream is enabled.

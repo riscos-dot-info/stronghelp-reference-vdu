@@ -1,0 +1,4 @@
+VDU 18
+#Parent !Root
+VDU 18,<action=>18a>,<colour=>17a>
+This VDU is used to define graphics fore or background colour, and the way in which it is to be plotted on the screen.

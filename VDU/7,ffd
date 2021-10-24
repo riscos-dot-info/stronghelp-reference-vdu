@@ -1,0 +1,5 @@
+VDU 7
+#Parent !Root
+VDU 7 sounds the bell
+
+Bell sound parameters are set with OS_Byte <211=>OS:OS_Byte211>, <212=>OS:OS_Byte212>, <213=>OS:OS_Byte213> and <214=>OS:OS_Byte214>.

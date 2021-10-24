@@ -1,0 +1,7 @@
+VDU 23,32-255
+#Parent 23
+VDU 23,{/}m{/}, 8 bytes of row definitions
+
+This VDU redefines character /m/ in the system font. The rows are given by the 8 bytes from top to bottom. The pattern for a character can be read with <OS_Word 10=>OS:OS_Word10>.
+
+Note that although the delete character (\<127>) can be redefined, it still cannot be printed.

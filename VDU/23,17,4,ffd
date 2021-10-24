@@ -1,0 +1,8 @@
+VDU 23,17,4
+#Parent 23,17
+#Wrap Off
+VDU 23,17,4,0,0,0,0,0,0,0 :	Use ancient pattern
+VDU 23,17,4,1,0,0,0,0,0,0 :	Use new & improved
+
+#Wrap On
+This VDU chooses which set of colour patterns are used to interpret subsequent <VDU 23,2-5=>23,2> calls.

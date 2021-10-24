@@ -1,0 +1,5 @@
+VDU 23,10
+#Parent 23a
+VDU 23,10,duration,0,0,0,0,0,0,0
+
+This VDU sets the duration of the second flash colour (in video frames), and is equivalent to <OS_Byte 10=>OS:OS_Byte010>. The duration can be read with <OS_Byte 194=>OS:OS_Byte194>. A duration of 0 means display the first colour constantly.

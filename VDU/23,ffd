@@ -1,0 +1,11 @@
+VDU 23
+#Parent !Root
+VDU 23,<command=>23a>,nine parameters
+Miscellaneous commands.
+Though few of the commands use all of the nine parameters, they must always be present. In BASIC, you can use | to add eight zero bytes:
+
+#tab Align right
+VDU	23,0,10 |
+=VDU	23,0,10,0,0,0,0,0,0,0,0
+
+Any extra zero bytes remaining after the 9 bytes used by the VDU 23 command are ignored (<VDU 0=>0> is a no-op).

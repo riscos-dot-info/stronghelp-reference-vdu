@@ -1,0 +1,10 @@
+VDU 24
+#Parent !Root
+{ALIGN RIGHT}(rx,ty){ALIGN CENTRE}
+
+  Define graphics window:  
+  VDU 24,lx;by;rx;ty;
+
+  Coordinates are relative to the current graphics origin and *inclusive*.
+
+{ALIGN LEFT}(lx,by)

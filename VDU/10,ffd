@@ -1,0 +1,5 @@
+VDU 10
+#Parent !Root
+VDU 10 moves the cursor down one line
+
+In <VDU 4=>4> mode this is the text cursor, in <VDU 5=>5> mode the graphics cursor. Motion is to positive Y (default is down, set by <VDU 23,16=>23,16>). If at the last line the screen is scrolled if scrolling is enabled (see also VDU 23,16).

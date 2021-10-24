@@ -1,0 +1,7 @@
+VDU 8
+#Parent !Root
+VDU 8 backspaces the cursor
+
+In <VDU 4=>4> mode this is the text cursor, in <VDU 5=>5> mode the graphics cursor. Backspace moves to negative X (default is left, set by <VDU 23,16=>23,16>). If at the start of a row (column with <vertical printing=>23,16>) it moves to the end of the previous row (or column) scrolling the screen where necessary.
+
+Backspace does not delete the previous character.

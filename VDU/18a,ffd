@@ -1,0 +1,21 @@
+Action:
+#Parent 18
+s is pixel on screen.
+c is new colour.
+
+Value  Action
+#Line
+0	s = c
+1	s = s OR c
+2	s = s AND c
+3	s = s XOR c
+4	s = NOT s
+5	s = s (no change)
+6	s = s AND NOT c
+7	s = s OR NOT c
+8-15	As 0-7 but background col is transparent.
+16-31	Colour pattern 1, using action 0-15
+32-47	Colour pattern 2, using action 0-15
+48-63	Colour pattern 3, using action 0-15
+64-79	Colour pattern 4, using action 0-15
+80-95	Giant pattern, using action 0-15

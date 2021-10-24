@@ -1,0 +1,5 @@
+VDU 12
+#Parent !Root
+VDU 12 clears the current window
+
+In <VDU 4=>4> mode this is the text window to the text background colour, in <VDU 5=>5> mode the graphics window to the graphics background colour. The cursor is <homed=>30>.

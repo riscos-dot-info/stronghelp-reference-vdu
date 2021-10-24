@@ -1,0 +1,19 @@
+VDU 23,8
+#Parent 23a
+VDU 23,8,base_start,base_end,{/}x1{/},{/}y1{/},{/}x2{/},{/}y2{/},0,0
+
+This VDU clears a block of the text window to the text background colour. The block is defined in terms of offsets {/}x1{/},{/}y1{/} and {/}x2{/},{/}y2{/} given from base positions:
+
+#Wrap off
+Value	Meaning			Value	Meaning			Value	Meaning
+#Line
+0	window top left		1	cursor column top	2	window off top right
+4	cursor line left	5	cursor postion		6	cursor line off right
+8	window bottom left	9	cursor column bottom	10	window off bottom right
+#wrap
+
+(where "off" is one char beyond in the positive X direction)
+
+(see <VDU 23,16=>23,16> to change X and Y directions, and sense of positive)
+
+The result is undefined if and base + offset is outside the range -128,127. If the end point lies before the start point no clearing occurs.

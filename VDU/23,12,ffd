@@ -1,0 +1,14 @@
+VDU 23,12-15
+#Parent 23a
+VDU 23,{/}nr{/},{/}n1{/},{/}n2{/},{/}n3{/},{/}n4{/},{/}n5{/},{/}n6{/},{/}n7{/},{/}n8{/}
+
+This VDU defines one of the ECF patterns; {/}nr{/} is 12-15 for pattern 1-4.
+
+For 2,4 and 16 colour modes this defines the patterns as a repeated 2 × 4 block of pixels with the given logical colours:
+
+	{/}n1{/}	{/}n2{/}
+	{/}n3{/}	{/}n4{/}
+	{/}n5{/}	{/}n6{/}
+	{/}n7{/}	{/}n8{/}
+
+In 256 colour modes the parameters define the eight rows.

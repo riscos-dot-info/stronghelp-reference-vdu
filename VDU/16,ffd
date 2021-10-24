@@ -1,0 +1,5 @@
+VDU 16
+#Parent !Root
+VDU 16 clears the graphics window
+
+The window is cleared to the graphics background colour using the background action. The graphics cursor position is unaffected. This is equivilent to BASIC's CLG.

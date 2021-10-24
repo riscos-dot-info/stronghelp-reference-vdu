@@ -1,0 +1,8 @@
+VDU 31
+#Parent !Root
+VDU 31,{/}x{/},{/}y{/}
+This VDU moves the text cursor to ({/}x{/},{/}y{/}). (0,0) is top left of current text window. If ({/}x{/},{/}y{/}) is outside text window, nothing happens, unless <scroll protection=>Scroll_Protection> is enabled and {/}x{/} = maxx+1  => cursor is moved to ({/}x{/}-1,{/}y{/}), and a pending newline is generated.
+
+In <VDU 5=>5> mode the graphics cursor is moved to (x char spacing * {/}x{/}, y char spacing * {/}y{/}), which can result in the cursor being moved outside the graphics window.
+
+Current text cursor position can be read with <OS_Byte 134=>OS:OS_Byte134>

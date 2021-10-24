@@ -1,0 +1,11 @@
+VDU 23,1
+#Parent 23
+VDU 23,1,mode,0,0,0,0,0,0,0
+
+This VDU controls the appearance of the cursor:
+  0 Hide cursor
+  1 Show cursor
+  2 Steady cursor
+  3 Flashing corsor
+
+The effect of this VDU is cancelled when cursor editing occurs.

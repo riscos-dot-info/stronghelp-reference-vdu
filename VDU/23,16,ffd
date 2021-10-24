@@ -1,0 +1,21 @@
+VDU 23,16
+#Parent 23a
+VDU 23,16,{/}x{/},{/}y{/},0,0,0,0,0,0
+
+This VDU controls the movement of the cursor after printing. The value of the control byte is altered by
+
+  new value = (old value AND {/}y{/}) EOR {/}x{/}
+
+The bits in the value are interpreted as follows
+
+bit	effect when set
+#Line
+7	undefined (normal is unset)
+6	in <VDU 5=>5> mode cursor movement beyond the window edge does not generate newlines
+5	cursor does not move after characters are printed (normal action is to move in positive X direction)
+4	cursor movement in Y direction out of window results in cursor being "wrapped round" to opposite side (normal action in <VDU 4=>4> mode is to scroll, <VDU 5=>5> to wrap)
+3	X direction is vertical, Y is horizontal (normal is Y vertical)
+2	Positive vertical direction is down (normal is up)
+1	Positive horizontal direction is right (normal is left)
+0	<scroll protection=>Scroll_Protection> enabled (normal is disabled, but desktop sets bit 0 and {*}enables scroll protection{*})
+# Much tears before bedtime, that one.

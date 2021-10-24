@@ -1,0 +1,5 @@
+VDU 26
+#Parent !Root
+VDU 26 restores the default windows.
+
+The text and graphics windows both return to default (full screen), the graphics origin is reset to 0,0, the graphics cursor moved to 0,0 and the text cursor <homed=>30>. Hardware scrolling of the text window is initiated.

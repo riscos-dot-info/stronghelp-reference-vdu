@@ -1,0 +1,4 @@
+VDU 25
+#Parent !Root
+VDU 25,<command=>OS:OS_PlotIndex>,x;y;
+This VDU executes a plot command. It is faster (and simpler) to use the SWI <OS_Plot=>OS:OS_Plot> directly.

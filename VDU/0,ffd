@@ -1,0 +1,5 @@
+VDU 0
+#Parent !Root
+VDU 0 does nothing.
+
+This allows BASIC's {fCode}|{f} to act as if it supplies the exact number of zero bytes to fill the remaining parameters of complex VDU commands ({/}e.g.{/} <VDU 23=>23>) - what actually happens is that {fCode}|{f} always supplies 8 zero bytes and any left over after the complex command are each treated as VDU 0 commands, and hence ignored.

@@ -1,0 +1,5 @@
+VDU 127
+#Parent !Root
+VDU 127 deletes the previous character.
+
+Unless <VDU 23,16=>23,16> specifies no cursor motion after printing the cursor is moved back as if by <VDU 8=>8>. In <VDU 5=>5> mode the character position is solid filled with graphics background colour, in <VDU 4=>4> mode with text background colour ({/}i.e.{/} a space is printed, even if character 32 has been redefined).

@@ -1,0 +1,28 @@
+VDU codes
+#Parent StrongHelp:!Menu
+0	<Null Operation=>0>				 		16	<Clear graphics window=>16>
+1	<Send next char to printer=>1>			 		17	<Set text colour=>17>
+2	<Enable printer=>2>				 		18	<Set graphics colour and action=>18>
+3	<Disable printer=>3>				 		19	<Set palette=>19>
+4	<Split text,graphics cursors=>4>		 		20	<Restore default colours=>20>
+5	<Join text,graphics cursors=>5>			 		21	<Disable screen output=>21>
+6	<Enable screen output=>6>			 		22	<Change Screen Mode=>22>
+7	<Bell=>7>					 		23	<Misc=>23>
+8	<Back space=>8>					(move left)	24	<Define graphics window=>24>
+9	<Horizontal tab=>9>				(move right)   	25	<Plot=>25>
+10	<Line feed=>10>					(move down)	26	<Restore default windows=>26>
+11	<Vertical tab=>11>				(move up)	27	<Null Operation=>27>
+12	<Form feed/clear screen=>12>			 		28	<Define text window=>28>
+13	<Carriage return=>13>				 		29	<Set graphics origin=>29>
+14	<Page mode on=>14>				 		30	<Home=>30>
+15	<Page mode off=>14>				 		31	<Position text cursor=>31>
+127	<Delete=>127>
+
+#Tab
+See also:
+   	<OS_ReadVDUVariables=>OS:OS_ReadVDUVariables>	 		 	<Scroll protection=>Scroll_Protection>
+	<Output stream status=>OS:OS_Byte003>		 		 	<VDU status=>OS:OS_Byte117>
+	<Unknown VDU23 vector=>OS:vector_ukvdu23v>	 		 	<Unknown plot vector=>OS:vector_ukplotv>
+	<VDU extension vector=>OS:vector_vduxv>
+#Indent;Line;align centre
+{/}<VDU commands manual=>about>, v2.02{/}

@@ -1,0 +1,12 @@
+VDU 23,17,0-3
+#Parent 23,17
+This VDU is used to set the tint for a colour in a 256-colour mode:
+
+#Wrap Off
+VDU 23,17,0,tint,0,0,0,0,0,0,0	Text foreground
+VDU 23,17,1,tint,0,0,0,0,0,0,0	Text background
+VDU 23,17,2,tint,0,0,0,0,0,0,0	Graphics foreground
+VDU 23,17,3,tint,0,0,0,0,0,0,0	Graphics background
+#Wrap On
+
+Tint is &00,&40,&80 or &C0 (uses only 2 top bits).

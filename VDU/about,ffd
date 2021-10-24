@@ -1,0 +1,58 @@
+VDU commands manual
+#Align Centre
+{fh3}VDU commands manual{f}
+#Line
+#Align Left
+This manual is part of a collection comprising the main public domain programming reference. The other manuals in the series are :
+#Indent 2
+#Postfix :!Root
+<OS>		The base operating system stuff
+<Wimp>		The desktop part of the operating system
+<InetSWIs>	Internet based SWIs
+<InetSocket>	Internet socket calls
+<MiscSWIs>	Miscellaneous SWIs
+<VDU>		VDU commands
+<Toolbox>	Toolbox (by Neil Bingham)
+#Indent
+
+For comments, suggestions and submissions for these, please mail Justin Fletcher <\<gerph@innocent.com\>=>#URL mailto:gerph@innocent.com> who is currently moderating the collection. The primary location for these manuals will be <http://freenet.barnet.ac.uk/manuals/=>#URL http://freenet.barnet.ac.uk/manuals/>.
+
+<This page=>.hist202> gives some history.
+#Subpage hist100
+VDU History v1.00
+è	Original version by Guttorm Vik (many thanks!)
+
+#Tab
+<Next history=>.hist200>
+#Subpage hist200
+VDU History v2.00
+#align right
+{/}22 Mar 1998{/}
+#align
+è	Submissions from various people added.
+è	Changes to the formatting and links - now links via description rather than number, giving a bigger area to 'hit'
+è	Nicholas Clark's done everything.
+è	That's all folks, I can't imagine much more will happen with the VDU manual !
+
+#Tab
+<Previous history=>.hist100>	<Next history=>.hist201>
+#Subpage hist201
+VDU History v2.01
+#align right
+{/}31 Mar 1998-02 May 1998{/}
+#align
+è	Minor spelling mistakes corrected
+è	Scroll_protection update
+è	VDU 18a updated - 5 s=s :-)
+
+#Tab
+<Previous history=>.hist200>	<Next history=>.hist202>
+#Subpage hist202
+VDU History v2.02
+#align right
+{/}20 Jul 1998-{/}
+#align
+è	Added 'notfound_{/}manual{/}' pages, for StrongHelp 2.60.
+
+#Tab
+<Previous history=>.hist201>

@@ -1,0 +1,11 @@
+VDU 5
+#Parent !Root
+VDU 5 joins the text and graphics cursors. This is known as VDU 5 mode.
+
+The text and graphics cursors are split with <VDU 4=>4>. VDU 4 mode is the default VDU driver state.
+
+In VDU 5 mode text is printed at the current graphics cursor position with the current graphics foreground colour and action - background pixels in the character shape are not plotted. By default, after each character is plotted the graphics cursor is moved in the positive X direction (default right), moving to the left of a new row when the right side of the graphics window is reached, the cursor wrapping to the diagonally opposite (default top left) corner when the "bottom" is reached. All of this can be altered with <VDU 23,16=>23,16>. Text position is not restricted to character cell positions, and text size and spacing can be altered with <VDU 23,17,7=>23,17,7>.
+
+<OS_Byte 117=>OS:OS_Byte117> can be used to find out whether the cursors are split or joined.
+
+VDU 5 mode is slower than VDU 4 mode, and does not allow cursor editing.

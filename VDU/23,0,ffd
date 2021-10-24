@@ -1,0 +1,19 @@
+VDU 23,0
+#Parent 23
+VDU 23,0,action,mode,0,0,0,0,0,0
+Set the interlace and control cursor appearance.
+
+Action = 8	Set interlace:
+	 	Mode :	0	Set it to opposite of current *TV
+	 	 	1	Set it to current *TV
+	 	 	&80	Turn interlace off
+	 	 	&81	Turn interlace on
+
+Action = 10	Set start line for cursor:
+	 	Mode :	b0-4	Start line (0 is top)
+	 	 	b5-6	00 Steady
+	 	 	01 Off
+	 	 	02 Fast flash
+	 	 	03 Slow flash
+
+Action = 11	End line for cursor = Mode

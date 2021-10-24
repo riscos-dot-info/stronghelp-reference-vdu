@@ -1,0 +1,8 @@
+VDU 28
+#Parent !Root
+{Align right}(rx,ty){align centre}
+
+  Define text window:  
+  VDU 28,lx,by,rx,ty
+
+{align left}(lx,by)

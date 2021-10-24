@@ -1,0 +1,19 @@
+VDU 23 commands:
+#Parent !Root
+0		<Set interlace & cursor appearance=>23,0>
+1		<Control cursor appearance=>23,1>
+2-5		<Define ECF pattern & colours=>23,2>
+6		<Set dot-dash line style=>23,6>
+7		<Scroll text window or screen=>23,7>
+8		<Clear block of text window=>23,8>
+9		<Set time for 1st flash colour=>23,9>
+10		<Set time for 2nd flash colour=>23,10>
+11		<Set default pattern=>23,11>
+12-15		<Define simple ECF & colours=>23,12>
+16		<Control cursor movement after print=>23,16>
+17		<Miscellaneous operations=>23,17>
+18-25,28-31	<Unknown VDU23 vector called=>OS:vector_ukvdu23v>
+32-255		<Redefine a character=>23,32-255>
+
+#Wrap
+The current settings defined by 2-6 and 32-255 can be read with <OS_Word 10=>OS:OS_Word10>.

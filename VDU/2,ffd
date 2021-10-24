@@ -1,0 +1,7 @@
+VDU 2
+#Parent !Root
+VDU 2 enables the printer stream - characters in the range 8-13, 32-126 and 128-255 sent to the VDU drivers will also be sent to the printer device selected by <OS_Byte 5=>OS:OS_Byte005>. Multibyte VDU sequences are not sent to the printer (except for the argument of<VDU 1=>1>), and bytes are still sent to the printer stream when screen output is disabled with <VDU 21=>21>.
+
+<VDU 3=>3> disables the printer stream, and <OS_Byte 117=>OS:OS_Byte117> can be used to read whether the printer stream is enabled.
+
+<OS_Byte 3=>OS:OS_Byte003> can be used to disable the printer stream independently of VDU 2 and <3> - in the <output stream status=>OS:OS_Byte003state> bit 2 overrides VDU 2, and bit 6 must be clear for anything other than <VDU 1=>1> to send characters to the printer.

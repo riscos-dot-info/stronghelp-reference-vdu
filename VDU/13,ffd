@@ -1,0 +1,5 @@
+VDU 13
+#Parent !Root
+VDU 13 moves the cursor to the start of the current line
+
+In <VDU 4=>4> mode this is the text cursor, in <VDU 5=>5> mode the graphics cursor. Motion is to negative X (default is left, set by <VDU 23,16=>23,16>) at constant Y.

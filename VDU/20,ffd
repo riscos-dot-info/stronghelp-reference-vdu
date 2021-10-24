@@ -1,0 +1,5 @@
+VDU 20
+#Parent !Root
+VDU 20 restores the palette for the current mode.
+
+The text and graphics foreground is white, background black. Graphics foreground and background actions are 0 (overwrite). In 256 colour modes foreground tint is &C0, background 0.

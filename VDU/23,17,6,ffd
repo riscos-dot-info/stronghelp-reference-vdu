@@ -1,0 +1,7 @@
+VDU 23,17,6
+#Parent 23,17
+23,17,6,x;y;0,0,0
+
+This VDU sets the point with which to align the bottom left of the ECF pattern with.
+
+You can also use <OS_SetECFOrigin=>OS:OS_SetECFOrigin>.

@@ -1,0 +1,14 @@
+Mode:
+#Parent !Root
+Mode	Action
+#Line
+0-15	logical col = actual col
+16	logical colour = RGB
+17	first flash = RGB
+18	second flash = RGB
+24	Border colour = RGB
+25	Pointer col = RGB
+
+Add 128 to set supremacy bit.
+
+Only top four bits of R,G and B, is used today, but if you want the colours to look the same on a future 24-bit VIDC, you should set bottom bits=top bits.

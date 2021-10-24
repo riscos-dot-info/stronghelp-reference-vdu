@@ -1,0 +1,4 @@
+VDU 29
+#Parent !Root
+VDU 29,x;y;
+This VDU defines where on screen 0,0 is. All graphics operations are relative to this point. Graphics window remains at same position on screen.

@@ -1,0 +1,5 @@
+VDU 23,6
+#Parent 23
+VDU 23,6, 8 pattern bytes
+
+This VDU sets the dot-dash line style used by dotted <plot=>OS:OS_Plot> commands. The most significant bit is used first; the default is &AAAAAAAA. The length of the dash pattern used is set with <OS_Byte 163=>OS:OS_Byte163>, the default is 8.

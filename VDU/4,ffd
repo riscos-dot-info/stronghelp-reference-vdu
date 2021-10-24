@@ -1,0 +1,11 @@
+VDU 4
+#Parent !Root
+VDU 4 splits the text and graphics cursors. This is known as VDU 4 mode, and is the default VDU driver state.
+
+The text and graphics cursors are joined with <VDU 5=>5>.
+
+In VDU 4 mode text is printed at the current text cursor position with the current text foreground and background colours. By default, after each character is plotted the text cursor is moved in the positive X direction (default right), moving to the left of a new row when the right side of the text window is reached, scrolling when the "bottom" is reached. All of this can be altered with <VDU 23,16=>23,16>. The text cursor is normally displayed (unless it is disabled with <VDU 23,1=>23,1>.)
+
+<OS_Byte 117=>OS:OS_Byte117> can be used to find out whether the cursors are split or joined.
+
+VDU 4 mode is faster than VDU 5 mode, and allows cursor editing.

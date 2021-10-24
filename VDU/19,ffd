@@ -1,0 +1,6 @@
+VDU 19
+#Parent !Root
+#Wrap Off
+VDU 19,colour,<mode=>19a>,r,g,b
+#Wrap On
+This VDU defines the RGB value for the border, or one of the screen or pointer colours.

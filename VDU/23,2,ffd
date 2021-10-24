@@ -1,0 +1,16 @@
+VDU 23,2-5
+#Parent 23a
+VDU 23,{/}nr{/},eight colour bytes.
+
+This VDU defines one of the ECF patterns; {/}nr{/} is 2-5 for pattern 1-4.
+Each of the eight colour bytes define one row of the ECF pattern, and there are two modes: a BBC-mode, and an Archimedes mode. 
+To choose mode, use <VDU 23,17,4=>23,17,4>.
+
+Bit 0-7 in each colour byte,is used as follows:
+
+BPP	BBC pixels	Archimedes pixels
+#Line
+1	7,6,5,4,3,2,1,0	0,1,2,3,4,5,6,7
+2	73,62,51,40	10,32,54,76
+4	7531,6420	3210,7654
+8	76543210	76543210

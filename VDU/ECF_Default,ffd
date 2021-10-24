@@ -1,0 +1,40 @@
+ECF pattern defaults
+#Parent 23,11
+Mode 0:
+
+1 Red Orange		2 Orange		3 Yel-Orange		4 Cream
+{fCode}11001100{f}	{fCode}11110000{f}	{fCode}11111111{f}	{fCode}00000011{f}
+{fCode}00000000{f}	{fCode}00001111{f}	{fCode}00110011{f}	{fCode}00001100{f}
+{fCode}11001100{f}	{fCode}11110000{f}	{fCode}11111111{f}	{fCode}00000011{f}
+{fCode}00000000{f}	{fCode}00110011{f}	{fCode}01010101{f}	{fCode}10001000{f}
+
+Other 2 colour modes:
+
+1 Dark Grey		2 Grey			3 Light Grey		4 Hatching
+{fCode}10101010{f}	{fCode}11001100{f}	{fCode}11111111{f}	{fCode}00010001{f}
+{fCode}00000000{f}	{fCode}00110011{f}	{fCode}01010101{f}	{fCode}00100010{f}
+{fCode}10101010{f}	{fCode}11001100{f}	{fCode}11111111{f}	{fCode}01000100{f}
+{fCode}00000000{f}	{fCode}00110011{f}	{fCode}01010101{f}	{fCode}10001000{f}
+
+4 colour modes:
+
+1 Red Orange	2 Orange	3 Yel-Orange	4 Cream
+{fCode}2121{f}	{fCode}2121{f}	{fCode}2222{f}	{fCode}2323{f}
+{fCode}1111{f}	{fCode}1212{f}	{fCode}1212{f}	{fCode}3232{f}
+
+16 colour modes:
+
+1 Orange	2 Pink 		3 Yel-Green	4 Cream
+{fCode}21{f}	{fCode}61{f}	{fCode}32{f}	{fCode}37{f}
+{fCode}12{f}	{fCode}16{f}	{fCode}23{f}	{fCode}73{f}
+
+256 colour modes:
+
+#tab
+1 Grey		 		2 Slate 	 		3 Green		 		4 Pink		 
+{fCode}3F{f}	{fCode}00{f}	{fCode}0{f}	{fCode}C0{f}	{fCode}4{f}	{fCode}C0{f}	{fCode}3B{f}	{fCode}C0{f}
+		{fCode}40{f}	 		{fCode}80{f}	 		{fCode}80{f}	 		{fCode}40{f}
+		{fCode}80{f}	 		{fCode}40{f}	 		{fCode}40{f}	 		{fCode}80{f}
+		{fCode}C0{f}	 		{fCode}00{f}	 		{fCode}00{f}	 		{fCode}C0{f}
+
+Repeat rows shown 2 or 4 times as necessary.

@@ -1,0 +1,7 @@
+VDU 23,17,x
+#Parent 23
+0-3	<Set tint=>23,17,0>
+4	<Choose colour-pattern type=>23,17,4>
+5	Swap text foreground and background colour
+6	<Set ECF origin=>23,17,6>
+7	<Set char size and spacing=>23,17,7>

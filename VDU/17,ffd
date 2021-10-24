@@ -1,0 +1,5 @@
+VDU 17
+#Parent !Root
+#Wrap Off
+Set text colour:
+VDU 17,<colour=>17a>

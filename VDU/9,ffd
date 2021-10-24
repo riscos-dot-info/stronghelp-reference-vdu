@@ -1,0 +1,7 @@
+VDU 9
+#Parent !Root
+VDU 9 advances the cursor
+
+In <VDU 4=>4> mode this is the text cursor, in <VDU 5=>5> mode the graphics cursor. Motion is to positive X (default is right, set by <VDU 23,16=>23,16>). If at the end of a row (column with <vertical printing=>23,16>) it moves to the end of the next row (or column) scrolling the screen <where necessary=>Scroll_Protection>.
+
+The cursor is advanced 1 character width, not to the next tab column.

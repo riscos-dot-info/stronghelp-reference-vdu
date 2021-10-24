@@ -1,0 +1,9 @@
+VDU 23,17,7
+#Parent 23,17
+VDU 23,17,7,flags,x;y;
+
+Bit	Meaning if set
+#Line
+0	(unimplemented - was to set <VDU 4=>4> character size)
+1	Set size of <VDU 5=>5> characters. (sizes 8×8 and 8×16 are fast, others slow)
+2	Set spacing between <VDU 5=>5> characters.

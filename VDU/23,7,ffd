@@ -1,0 +1,39 @@
+VDU 23,7
+#Parent 23a
+VDU 23,7,extent,<direction=>.direction>,movement,0,0,0,0,0
+
+This VDU scrolls the current text window or whole screen:
+
+extent	effect
+#Line
+0	scroll text window
+1	scroll whole screen
+#tab
+
+movement	effect
+#line
+0		scroll by one character cell
+1		scroll by one character cell vertically, <one byte=>.byte> horizontally
+#Subpage byte
+VDU 23,7 1 byte horizontal motion
+Number of colours	Pixels moved
+#Line
+2			8
+4			4
+16			2
+256			1
+# and for the other 2?
+#Subpage direction
+VDU 23,7 directions
+value	scroll direction
+#Line
+0	right
+1	left
+2	down
+3	up
+4	positive X direction
+5	negative X direction
+6	positive Y direction
+7	negative Y direction
+
+X and Y directions are controlled with <VDU 23,16=>23,16>.

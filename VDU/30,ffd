@@ -1,0 +1,7 @@
+VDU 30
+#Parent !Root
+VDU 30 moves the cursor to its home position.
+
+The home position is usually the top left of the window, but this may be altered with <VDU 23,16=>23,16>.
+
+In <VDU 4=>4> mode the text cursor is homed, in <VDU 5=>5> mode the graphics cursor. The actual location of the graphics mode home position may be up to (char size - 1) pixels out from the corner in one or both axes depending on the direction of character printing.

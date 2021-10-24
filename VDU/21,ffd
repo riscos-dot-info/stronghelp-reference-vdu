@@ -1,0 +1,5 @@
+VDU 21
+#Parent !Root
+VDU 21 disables screen output. It is reversed with <VDU 6=>6>, and the state can be read with <OS_Byte 117=>OS:OS_Byte117>.
+
+Characters are still sent to the printer (if it has been enabled with <VDU 2=>2>) and any other ouput devices enabled with <OS_Byte 3=>OS:OS_Byte003>. Multibyte VDU sequences are still passed as usual (but then ignored if they affect the screen) - hence sending {fCode}22{f}, {fCode}6{f} while the screen ouput is disabled will neither change the mode (<VDU 22=>22>) nor enable screen output (the {fCode}6{f} byte is parsed as the parameter to the ignored VDU 22).

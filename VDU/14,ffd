@@ -1,0 +1,9 @@
+VDU 14 / VDU 15
+#Parent !Root
+VDU 14
+This VDU turns page mode on.
+
+VDU 15
+This VDU turns page mode off.
+
+When page mode is turned on the VDU drivers will not scroll the screen until Shift is pressed. When shift is released the VDU drivers will scroll approximately 75% of the number of lines in the current window before waiting again. <OS_Byte 117=>OS:OS_Byte117> is used to determine whether paged mode is enabled, and the line count before scrolling is stopped can be read and set with <OS_Byte 217=>OS:OS_Byte217>.
