@@ -17,9 +17,9 @@ This manual is part of a collection comprising the main public domain programmin
 
 Thanks go to those mentioned in the <contributors=>OS:contributions> list.
 
-For comments, suggestions and submissions for these, please mail Christian Ludlam <christian@recoil.org=>#url mailto:christian@recoil.org> who is currently moderating the collection. These manuals will continue to be available from <http://sudden.recoil.org/stronghelp/=>#url>.
+These manuals are kindly hosted by <www.riscos.info=>#url http://www.riscos.info/downloads/stronghelp/manuals/>
 #line
-<This page=>.hist203> gives history and credits.
+<This page=>.hist204> gives history and credits.
 #
 #Subpage hist100
 VDU History v1.00
@@ -42,7 +42,7 @@ VDU History v2.00
 #Subpage hist201
 VDU History v2.01
 #align right
-{/}31 Mar 1998-02 May 1998{/}
+{/}02 May 1998{/}
 #align
 è	Minor spelling mistakes corrected
 è	Scroll_protection update
@@ -53,7 +53,7 @@ VDU History v2.01
 #Subpage hist202
 VDU History v2.02
 #align right
-{/}20 Jul 1998-{/}
+{/}20 Jul 1998{/}
 #align
 è	Added 'notfound_{/}manual{/}' pages, for StrongHelp 2.60.
 
@@ -65,7 +65,15 @@ VDU History v2.03
 {/}25 Aug 2003{/}
 #align
 è	Maintainer now Christian Ludlam
-è	Minor changes.
 
 #Tab
-<Previous history=>.hist202>
+<Previous history=>.hist202>	<Next history=>.hist204>
+#Subpage hist204
+VDU History v2.04
+#align right
+{/}12 Nov 2016{/}
+#align
+è	Added MODE 47-53 to VDU 22 <table=>22a>
+
+#Tab
+<Previous history=>.hist203>
