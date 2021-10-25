@@ -5,4 +5,6 @@ This VDU moves the text cursor to ({/}x{/},{/}y{/}). (0,0) is top left of curren
 
 In <VDU 5=>5> mode the graphics cursor is moved to (x char spacing * {/}x{/}, y char spacing * {/}y{/}), which can result in the cursor being moved outside the graphics window.
 
+As there are 8 pixels per character in the system font the limitation of 1 byte text coordinates means that the highest graphics resolution that can be fully supported by RISC OS is 2048 by 2048.
+
 Current text cursor position can be read with <OS_Byte 134=>OS:OS_Byte134>

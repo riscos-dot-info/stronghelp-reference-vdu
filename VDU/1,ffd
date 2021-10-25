@@ -2,6 +2,6 @@ VDU 1
 #Parent !Root
 VDU 1,{/}n{/}
 
-VDU 1 sends the next byte to the printer stream only, provided that the printer stream has been enabled with <VDU 2=>2>. (Otherwise the next byte is ignored)
+VDU 1 sends the next byte to the printer stream only, provided that the printer stream has been enabled with <VDU 2=>2>. (Otherwise the next byte is ignored).
 
 VDU 1 allows the printer ignore character (set with <OS_Byte 6=>OS:OS_Byte006>) and other characters not usually passed on by the VDU drivers to be sent to the printer via the VDU drivers.

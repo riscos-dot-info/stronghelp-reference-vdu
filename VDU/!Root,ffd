@@ -4,8 +4,8 @@ VDU codes
 1	<Send next char to printer=>1>			 		17	<Set text colour=>17>
 2	<Enable printer=>2>				 		18	<Set graphics colour and action=>18>
 3	<Disable printer=>3>				 		19	<Set palette=>19>
-4	<Split text,graphics cursors=>4>		 		20	<Restore default colours=>20>
-5	<Join text,graphics cursors=>5>			 		21	<Disable screen output=>21>
+4	<Split text, graphics cursors=>4>		 		20	<Restore default colours=>20>
+5	<Join text, graphics cursors=>5>			 		21	<Disable screen output=>21>
 6	<Enable screen output=>6>			 		22	<Change Screen Mode=>22>
 7	<Bell=>7>					 		23	<Misc=>23>
 8	<Back space=>8>					(move left)	24	<Define graphics window=>24>
@@ -20,9 +20,9 @@ VDU codes
 
 #Tab
 See also:
-   	<OS_ReadVDUVariables=>OS:OS_ReadVDUVariables>	 		 	<Scroll protection=>Scroll_Protection>
+	<OS_ReadVDUVariables=>OS:OS_ReadVDUVariables>	 		 	<Scroll protection=>Scroll_Protection>
 	<Output stream status=>OS:OS_Byte003>		 		 	<VDU status=>OS:OS_Byte117>
 	<Unknown VDU23 vector=>OS:vector_ukvdu23v>	 		 	<Unknown plot vector=>OS:vector_ukplotv>
-	<VDU extension vector=>OS:vector_vduxv>
+	<VDU extension vector=>OS:vector_vduxv>	 		 	<OS_Plot=>OS:OS_Plot>
 #Indent;Line;align centre
-{/}<VDU commands manual=>about>, v2.02{/}
+{/}<VDU commands manual=>about> v2.03, 25 Aug 2003{/}

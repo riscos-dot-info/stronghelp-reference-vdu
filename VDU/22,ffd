@@ -1,7 +1,7 @@
 VDU 22
 #Parent !Root
 VDU 22,<mode=>22a>
-This VDU is used to select screen mode.
+This VDU code is used to select screen mode. Use <OS_ScreenMode=>OS:OS_ScreenMode0> in preference.
 
 To read which mode is currently set, use <OS_Byte 135=>OS:OS_Byte135>.
 To read other info, use <OS_ReadModeVariable=>OS:OS_ReadModeVariable> or <OS_ReadVduVariables=>OS:OS_ReadVduVariables>.

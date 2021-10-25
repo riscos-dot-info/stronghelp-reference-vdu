@@ -1,0 +1,14 @@
+VDU 23,18,1 (5.00+)
+#Parent 23,18
+VDU 23,18,1,suspend,0,0,0,0,0,0
+
+Suspend/resume bitmap updates
+This call allows an application to request that the kernel suspends updates to the framebuffer bitmap. This allows for a significant speed increase in the rendering time for a large amount of text, for example when redrawing a complete teletext page, because each time you plot a single character, it can cause the whole of the rest of the line to be re-rendered. 
+
+When you switch out of suspend mode, the whole screen is refreshed in a single pass. 
+	suspend = 0: screen update is enabled
+	suspend = 1: screen update is suspended
+
+Note that the appearance of the display is undefined is you cause a hardware scroll while in suspend mode.
+
+Default is suspend = 0.

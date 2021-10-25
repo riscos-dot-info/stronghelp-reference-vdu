@@ -2,3 +2,5 @@ VDU 27
 #Parent !Root
 VDU 27 does nothing.
 # See also unary + in perl. :-)
+
+This is required because Escape will cause VDU 27 to be issued.

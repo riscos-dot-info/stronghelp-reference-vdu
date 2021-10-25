@@ -1,4 +1,4 @@
-VDU 23 commands:
+VDU 23 commands
 #Parent !Root
 0		<Set interlace & cursor appearance=>23,0>
 1		<Control cursor appearance=>23,1>
@@ -12,7 +12,8 @@ VDU 23 commands:
 12-15		<Define simple ECF & colours=>23,12>
 16		<Control cursor movement after print=>23,16>
 17		<Miscellaneous operations=>23,17>
-18-25,28-31	<Unknown VDU23 vector called=>OS:vector_ukvdu23v>
+18		<Set Teletext emulation options=>23,18>
+19-25,28-31	<Unknown VDU23 vector called=>OS:vector_ukvdu23v>
 32-255		<Redefine a character=>23,32-255>
 
 #Wrap

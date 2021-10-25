@@ -12,12 +12,15 @@ This manual is part of a collection comprising the main public domain programmin
 <InetSocket>	Internet socket calls
 <MiscSWIs>	Miscellaneous SWIs
 <VDU>		VDU commands
-<Toolbox>	Toolbox (by Neil Bingham)
+<Toolbox>	Toolbox
 #Indent
 
-For comments, suggestions and submissions for these, please mail Justin Fletcher <\<gerph@innocent.com\>=>#URL mailto:gerph@innocent.com> who is currently moderating the collection. The primary location for these manuals will be <http://freenet.barnet.ac.uk/manuals/=>#URL http://freenet.barnet.ac.uk/manuals/>.
+Thanks go to those mentioned in the <contributors=>OS:contributions> list.
 
-<This page=>.hist202> gives some history.
+For comments, suggestions and submissions for these, please mail Christian Ludlam <christian@recoil.org=>#url mailto:christian@recoil.org> who is currently moderating the collection. These manuals will continue to be available from <http://sudden.recoil.org/stronghelp/=>#url>.
+#line
+<This page=>.hist203> gives history and credits.
+#
 #Subpage hist100
 VDU History v1.00
 è	Original version by Guttorm Vik (many thanks!)
@@ -55,4 +58,14 @@ VDU History v2.02
 è	Added 'notfound_{/}manual{/}' pages, for StrongHelp 2.60.
 
 #Tab
-<Previous history=>.hist201>
+<Previous history=>.hist201>	<Next history=>.hist203>
+#Subpage hist203
+VDU History v2.03
+#align right
+{/}25 Aug 2003{/}
+#align
+è	Maintainer now Christian Ludlam
+è	Minor changes.
+
+#Tab
+<Previous history=>.hist202>

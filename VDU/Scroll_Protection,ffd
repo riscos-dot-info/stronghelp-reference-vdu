@@ -4,7 +4,7 @@ Normally in <VDU 4=>4> mode, printing a character at the end of the line immedia
 
 With scroll protection enabled this cursor movement is deferred - a "pending newline" is generated, which is only executed just before the next character is printed, *providing* that it has not been deleted by an intervening VDU command. For example, <VDU 127=>127> received during pending newline would cause the pending newline to be deleted, whereas <VDU 9=>9> would execute it.
 
-The upshot of being unaware of the state of scroll protection is that the cursor isn't always on the line that you expect it to be on, which can play havoc with some cursor movement commands ({/}e.g.{/} <carriage return=>13>).
+The upshot of being unaware of the state of scroll protection is that the cursor isn't always on the line that you expect it to be on, which can play havoc with some cursor movement commands (eg. <carriage return=>13>).
 
 Scroll protection is enabled/disabled with <VDU 23,16=>23,16> - there is no way to read the current state.
 # Silly omission

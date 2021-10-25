@@ -1,0 +1,11 @@
+VDU 23,18,0 (5.00+)
+#Parent 23,18
+VDU 23,18,0,mode,0,0,0,0,0,0
+
+Switch transparency mode
+	mode = 0:	"Text" mode: the whole display is set opaque
+	mode = 1:	"Mix" mode: foreground colours, and both foreground and background of boxed text are opaque; non-boxed background colours are all transparent
+	mode = 2:	"Box" mode: boxed regions are opaque, others are transparent
+	mode = 3:	"TV" mode: the whole display is set transparent
+
+Default is mode = 0.

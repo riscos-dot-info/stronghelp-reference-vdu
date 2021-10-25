@@ -1,4 +1,4 @@
-Standard Modes:
+Standard Modes
 #Parent 22
 #F3=Corpus.Medium 12
 #Tab Align Right, Align Right, Align Right, Align Right, Align Right, Align Left
@@ -55,10 +55,10 @@ Mode	col × row	pixx × pixy	colours	Memory	Type
 46	80×25		640×200		16	62.5K	{f3}-\*\*\*-{f}
 #Align Right
 {f3}|||||{f}
-'TV'-type monitor {f3}+||||{f}
-Multisync monitor {f3}-+|||{f}
-60 Hz VGA-type monitor {f3}--+||{f}
-Super-VGA monitor {f3}---+|{f}
-61.2 kHz high-res monochrome monitor {f3}----+{f}
-
+#Align Right
+'TV'-type monitor {f3}--+||||{f}
+Multisync monitor {f3}---+|||{f}
+60 Hz VGA-type monitor {f3}----+||{f}
+Super-VGA monitor {f3}-----+|{f}
+61.2 kHz high-res monochrome monitor {f3}------+{f}
 #Align

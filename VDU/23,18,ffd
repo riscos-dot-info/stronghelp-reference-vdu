@@ -1,0 +1,11 @@
+VDU 23,18,x (5.00+)
+#Parent 23
+0	<Switch transparency mode=>23,18,0>
+1	<Suspend/resume bitmap updates=>23,18,1>
+2	<Reveal/conceal=>23,18,2>
+3	<Enable/disable black foreground=>23,18,3>
+#wrap on
+
+This new subreason is part of Hi-Res teletext support, where the new typeface is designed on a 16×20 grid (previously RISC OS used 8×10), so the effective screen resolution becomes 640×500 pixels (rather than 320×250).
+
+The larger Hi-Res font is not cached due to its increased size, and is instead generated on the fly, with a 25% speed hit - some of the new VDU sequences allow rendering to be temporarily disabled to avoid this impacting machine performance.

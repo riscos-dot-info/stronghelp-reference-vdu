@@ -1,0 +1,9 @@
+VDU 23,18,3 (5.00+)
+#Parent 23,18
+VDU 23,18,3,black_enable,0,0,0,0,0,0
+
+Enable/disable black foreground colour control codes
+	black_enable = 0:	control codes &80 and &90 do nothing
+	black_enable = 1:	control code &80 selects black text, control code &90 selects black graphics
+
+Default is black_enable = 0.

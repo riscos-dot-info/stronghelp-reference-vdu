@@ -1,0 +1,9 @@
+VDU 23,18,2 (5.00+)
+#Parent 23,18
+VDU 23,18,2,reveal,0,0,0,0,0,0
+
+Reveal/conceal
+	reveal = 0:	characters between the Conceal control code and the next colour control code are replaced by spaces
+	reveal = 1:	all characters are displayed
+
+Default is reveal = 0.
